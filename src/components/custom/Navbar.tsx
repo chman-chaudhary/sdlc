@@ -15,8 +15,8 @@ import { LogOut } from "lucide-react";
 const Navbar = () => {
   const { data: session } = useSession();
   return (
-    <nav className="fixed top-0 left-0 w-full flex justify-between items-center border-b-[0.5px] border-gray-400/60 px-3 py-2">
-      <span className="text-4xl">Navbar</span>
+    <nav className="fixed top-0 left-0 w-full flex justify-between items-center backdrop-blur-sm border-b-[0.5px] border-gray-400/60 px-3 py-2">
+      <span className="text-4xl">LinkHub</span>
       <span>
         {session ? (
           <DropdownMenu>
